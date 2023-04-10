@@ -22,8 +22,17 @@
   "author": "prashantsudeep",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.15.11"
+    "@types/node": "^18.15.11",
+    "del": "^5.1.0",
+    "merge2": "^1.3.0",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.3"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/psudeep/light-date.git"
@@ -31,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/psudeep/light-date/issues"
   },
-  "homepage": "https://github.com/psudeep/light-date#readme"
+  "homepage": "https://github.com/psudeep/light-date#readme",
+  "dependencies": {
+    "tsd": "^0.28.1"
+  }
 }
