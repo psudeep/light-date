@@ -1,4 +1,4 @@
-import * as lightdate from './lib';
+import * as lightdate from './date';
 
 export {
   lightdate,
