@@ -1,0 +1,27 @@
+{
+  "name": "light-date",
+  "version": "0.0.1",
+  "description": "date time formatting package",
+  "main": "index.ts",
+  "scripts": {
+    "test": "node tests/test.js",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "keywords": [
+    "date",
+    "light",
+    "date",
+    "time",
+    "moment",
+    "seconds",
+    "year",
+    "month"
+  ],
+  "author": "prashantsudeep",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
