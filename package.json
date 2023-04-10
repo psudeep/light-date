@@ -1,14 +1,18 @@
 {
   "name": "lite-date",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "date time formatting package",
-  "main": "index.ts",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node tests/test.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "typings": "lib/index.d.ts",
   "keywords": [
     "date",
     "light",

@@ -1,5 +1,5 @@
-import * as lightdate from './date';
+import * as litedate from './date';
 
 export {
-  lightdate,
+    litedate,
 };
