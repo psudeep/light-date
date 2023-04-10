@@ -1,5 +1,5 @@
 {
-  "name": "lightdate",
+  "name": "lite-date",
   "version": "0.0.1",
   "description": "date time formatting package",
   "main": "index.ts",
@@ -35,12 +35,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/psudeep/lightdate.git"
+    "url": "git+https://github.com/psudeep/lite-date.git"
   },
   "bugs": {
-    "url": "https://github.com/psudeep/lightdate/issues"
+    "url": "https://github.com/psudeep/lite-date/issues"
   },
-  "homepage": "https://github.com/psudeep/lightdate#readme",
+  "homepage": "https://github.com/psudeep/lite-date#readme",
   "dependencies": {
     "tsd": "^0.28.1"
   }
