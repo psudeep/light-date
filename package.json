@@ -23,5 +23,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.15.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psudeep/light-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psudeep/light-date/issues"
+  },
+  "homepage": "https://github.com/psudeep/light-date#readme"
 }
