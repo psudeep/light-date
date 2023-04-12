@@ -1,6 +1,6 @@
 {
   "name": "lite-date",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "date time formatting package",
   "main": "lib/index.js",
   "scripts": {
@@ -21,7 +21,15 @@
     "moment",
     "seconds",
     "year",
-    "month"
+    "month",
+    "date-time-format",
+    "moment",
+    "time-format",
+    "date-formatting",
+    "format-date",
+    "typescript",
+    "nodejs",
+    "date-format"
   ],
   "author": "prashantsudeep",
   "license": "ISC",

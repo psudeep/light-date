@@ -56,6 +56,14 @@ export function tzoffset() {
   return `${timezoneOffsetSign} ${timezoneOffsetHours}`;
 }
 
+export function timezone() {
+  const date = new Date();
+  const timeZoneName = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  // console.log(`Time zone: ${timeZoneName}`);
+  return timeZoneName;
+}
+
 export function day() {
   const date = new Date();
   const dayOfWeek = date.getDay();
