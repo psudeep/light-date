@@ -45,6 +45,10 @@ date-format            x   835,649 ops/sec ±0.20% (96 runs sampled)
 moment                 x   650,721 ops/sec ±2.13% (90 runs sampled)
 ```
 
+## Issues/Feature Requests
+
+Github [Issues/Features](https://github.com/psudeep/lite-date/issues)
+
 ## License
 
 ISC © Prashant Sudeep
